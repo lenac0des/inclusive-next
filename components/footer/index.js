@@ -1,19 +1,25 @@
+import React from 'react'
+import { FooterStyled, Logo, IconText, Icon } from './styles/Footer.js'
+import { TwitterSVG, FacebookSvg, InstagramSvg, YoutubeSvg } from '../../assets/Icons/index.js'
 
-import styled from "styled-components";
-
-const FooterPrivisional = styled.div`
-  height: 100vh;
-  border: 3px cornflowerblue solid;
-  display:grid;
-  place-items: center;
-`
-
-const Footer = () => {
+export default function Footer() {
   return (
-    <FooterPrivisional>
-      Footer Component
-    </FooterPrivisional>
+      <FooterStyled>
+      
+      <Logo>
+      <h2>Inclusive</h2>
+      </Logo>
+      <IconText>
+     <h4>Connect with us!</h4>
+      </IconText>
+      <Icon>
+        <TwitterSVG />
+        <InstagramSvg />
+        <FacebookSvg />
+        <YoutubeSvg />
+      </Icon>
+      
+      </FooterStyled>
+    
   );
 }
-
-export default Footer;
