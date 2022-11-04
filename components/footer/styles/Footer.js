@@ -35,5 +35,34 @@ font-family: 'Poppins';
 font-weight: 600;
 color: #00080B;
 `
-export const Icon = styled.i`
+// export const Icon = styled.i`
+// width: 36px;
+// height: 36px;
+// `
+
+
+export const Row = styled.div`
+border: 2px solid green;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 60px;
+justify-content: center;
+
+
+@media (max-width: 1000px) {
+   grid-template-columns: repeat()(auto-fill, minmax()(200px,1fr));
+   grid-gapL 20px;
+}
+`
+
+export const Column = styled.div`
+border: 3px solid orange;
+text-align: center;
+display: flex;
+flex-direction: column;
+max-width: 200px;
+margin: 0 auto;
+`
+export const Caption = styled.h6`
+border: 3px dotted pink;
 `

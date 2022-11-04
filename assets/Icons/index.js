@@ -166,7 +166,7 @@ export const BackArrow = (props) => (
 )
 
 
-const TwitterSVG = (props) => (
+const TwitterSVG = ({props}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
@@ -179,7 +179,7 @@ const TwitterSVG = (props) => (
 )
 
 
-const YoutubeSvg = (props) => (
+const YoutubeSvg = ({props}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 576 512"
@@ -193,7 +193,7 @@ const YoutubeSvg = (props) => (
 
 
 
-const InstagramSvg = (props) => (
+const InstagramSvg = ({props}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 448 512"
