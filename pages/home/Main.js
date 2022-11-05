@@ -12,10 +12,9 @@ export default function Main() {
         <section className={styles.MainContainer}>
             <div className="S1">
             <div className="WhoWrapper">
-                    <Image 
-                    src={Chat} 
-                    alt= 'Two females sitting shaking hands chatting'
-                    // className={styles.Chatty}
+                    <Image
+                    src={Chat}
+                   
                     />
                     <div className= {styles.WhoWeAre}>
                         <h2 className={styles.Who}>Who We Are</h2>

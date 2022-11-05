@@ -8,8 +8,8 @@ align-items: center;
 padding: 22px 0px 6px;
 gap: 16px;
 position: absolute;
-width: 1440px;
-height: 490px;
+width: 1550px;
+height: 450px;
 left: 0px;
 top: 2804px;
 background: #F4F4F4;
@@ -57,12 +57,32 @@ justify-content: center;
 
 export const Column = styled.div`
 border: 3px solid orange;
-text-align: center;
 display: flex;
 flex-direction: column;
-max-width: 200px;
-margin: 0 auto;
+align-items: center;
+padding: 22px 0px 6px;
+gap: 16px;
+line-height: 32px;
 `
 export const Caption = styled.h6`
 border: 3px dotted pink;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.01em;
+line-height: 35px;
+margin-left: -1050px;
+margin-bottom: -50px;
+`
+
+export const Caption2 = styled.h6`
+border:5px dotted blue;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.01em;
+line-height: 24px;
+margin-right: -880px;
 `

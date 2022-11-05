@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterStyled, Logo, IconText, Row, Column, Caption } from './styles/Footer.js'
+import { FooterStyled, Logo, IconText, Row, Column, Caption, Caption2 } from './styles/Footer.js'
 // import { TwitterSVG, FacebookSvg, InstagramSvg, YoutubeSvg } from '../../assets/Icons/index.js'
 
 export default function Footer() {
@@ -45,8 +45,8 @@ export default function Footer() {
 
       <Caption>
         <h6>© 2022 The Inclusive Group, All rights reserved</h6>
-        <h6>Nonprofit helping NYC parents find the best services for their children.</h6>
       </Caption>
+      <Caption2> <h6>Nonprofit helping NYC parents find the best services for their children.</h6></Caption2>
       
       </FooterStyled>
     
