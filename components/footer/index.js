@@ -4,13 +4,13 @@ import { TwitterSVG, FacebookSvg, InstagramSvg, YoutubeSvg } from '../../assets/
 
 export default function Footer() {
   return (
-      <FooterStyled>
-      
+    <FooterStyled>
+
       <Logo>
-      <h2>Inclusive</h2>
+        Inclusive
       </Logo>
       <IconText>
-     <h4>Connect with us!</h4>
+        Connect with us!
       </IconText>
       <Icon>
         <TwitterSVG />
@@ -21,34 +21,34 @@ export default function Footer() {
 
 
       <Row>
-      <Column>
-      <h4>Learn</h4>
-      <h5>About us</h5>
-      <h5>Blog</h5>
-      <h5>Newsletter</h5>
-      </Column>
+        <Column>
+          <h4>Learn</h4>
+          <h5>About us</h5>
+          <h5>Blog</h5>
+          <h5>Newsletter</h5>
+        </Column>
 
 
-      <Column>
-      <h4>Inclusive Services</h4>
-      <h5>Guide to services</h5>
-      <h5>Resource directory</h5>
-      </Column>
+        <Column>
+          <h4>Inclusive Services</h4>
+          <h5>Guide to services</h5>
+          <h5>Resource directory</h5>
+        </Column>
 
-      <Column>
-      <h4>Help</h4>
-      <h5>Contact us</h5>
-      <h5>FAQ</h5>
-      </Column>
+        <Column>
+          <h4>Help</h4>
+          <h5>Contact us</h5>
+          <h5>FAQ</h5>
+        </Column>
 
       </Row>
 
       <Caption>
-        <h6>© 2022 The Inclusive Group, All rights reserved</h6>
+        © 2022 The Inclusive Group, All rights reserved
       </Caption>
-      <Caption2> <h6>Nonprofit helping NYC parents find the best services for their children.</h6></Caption2>
-      
-      </FooterStyled>
-    
+      <Caption2>Nonprofit helping NYC parents find the best services for their children.</Caption2>
+
+    </FooterStyled>
+
   );
 }

@@ -7,7 +7,6 @@ flex-direction: column;
 align-items: center;
 padding: 22px 0px 6px;
 gap: 16px;
-position: absolute;
 width: 1550px;
 height: 450px;
 left: 0px;
