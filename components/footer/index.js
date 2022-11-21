@@ -1,6 +1,6 @@
 import React from 'react'
-import { FooterStyled, Logo, IconText, Row, Column, Caption, Caption2 } from './styles/Footer.js'
-// import { TwitterSVG, FacebookSvg, InstagramSvg, YoutubeSvg } from '../../assets/Icons/index.js'
+import { FooterStyled, Logo, IconText, Row, Column, Caption, Caption2, Icon } from './styles/Footer.js'
+import { TwitterSVG, FacebookSvg, InstagramSvg, YoutubeSvg } from '../../assets/Icons/index.js'
 
 export default function Footer() {
   return (
@@ -12,12 +12,12 @@ export default function Footer() {
       <IconText>
      <h4>Connect with us!</h4>
       </IconText>
-      {/* <Icon>
+      <Icon>
         <TwitterSVG />
         <InstagramSvg />
         <FacebookSvg />
         <YoutubeSvg />
-      </Icon> */}
+      </Icon>
 
 
       <Row>

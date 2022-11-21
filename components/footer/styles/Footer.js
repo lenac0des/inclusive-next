@@ -35,10 +35,10 @@ font-family: 'Poppins';
 font-weight: 600;
 color: #00080B;
 `
-// export const Icon = styled.i`
-// width: 36px;
-// height: 36px;
-// `
+export const Icon = styled.i`
+width: 36px;
+height: 36px;
+`
 
 
 export const Row = styled.div`
